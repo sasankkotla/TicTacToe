@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+     background-image: linear-gradient(to left,blue,red) ; 
+     
+}
+hr{
+    background-color:greenyellow;
+}
+.container{
+    text-align:center;
+    width:100%;
+}
+#head{
+    margin-top:20px;
+    color:white;
+    text-align: center;
+    font-family: 'Potta One', cursive
+}
+#turn {
+    letter-spacing: 2px;
+    font-style: italic;
+    color:yellow;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.newclass {
+    color:red;
+    border: 10px dotted orange;
+}
+
+.container input{
+    width:150px;
+    height:150px;
+    background-color: whitesmoke;
+    color:black;
+    font-size: 60px;
+    font-weight:lighter;
+    border-radius: 10px;
+    border:5px solid black;
+}
+
+input {
+    font-family: 'Pacifico', cursive;
+    
+}
+#result{
+    letter-spacing: 2px;
+    font-style: italic;
+    color:yellow;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media only screen and (max-width:786px){
+    .container input{
+        width:120px;
+        height:120px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .container input{
+        width:95px;
+        height:95px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .container input{
+        width:90px;
+        height:90px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .container input{
+        width:80px;
+        height: 80px;
+    }
+}
